@@ -422,7 +422,7 @@ if __name__ == "__main__":
 
     # run the functions
     ExonMatchCounts = np.zeros(12) # initialize the counts for exons
-    for read in Reads[2936800:2947300]: # update the counts for exons
+    for read in Reads: # update the counts for exons
         positions = MatchReadToLoc(read) # get the list of potential match locations
         ExonMatchCounts += WhichExon(positions) # update the counts of exons, if applicable
     
