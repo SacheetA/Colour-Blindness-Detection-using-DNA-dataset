@@ -5,7 +5,7 @@ Dataset Required: (Not provided here due to copyright reasons)
 
 1. Chromosome X of reference DNA: A string of characters for eg. 'ATATGCCTCGCATCGATAAACTTTCGCGCATACGACATCGA' of length approx ~150 million characters
 
-2. BWT transform of the dataset above (chromosome X) needs to be performed and the correspoding last column and first column of the BWT transform are required for the code to run.
+2. BWT transform of the dataset above (chromosome X) needs to be performed and the corresponding last column and first column of the BWT transform are required for the code to run.
 
 3. The first column of BWT transform has characters in alphabetical order, the location of these characters in the actual reference Chromosome X is required.
 
