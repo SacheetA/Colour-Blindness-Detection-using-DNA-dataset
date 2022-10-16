@@ -13,4 +13,5 @@ Dataset Required: (Not provided here due to copyright reasons)
 
 NOTE:
 
-The BWT transform method is used as it reduces time complexity of matching read with reference DNA chromosome X from order(len of reference chromosome ~150m) to order(len of read ~100) for each read.
+1. The BWT transform method is used as it reduces time complexity of matching read with reference DNA chromosome X from order(len of reference chromosome ~150m) to order(len of read ~100) for each read.
+2. The runtime of the code is approx. 3 hours on an intel core i7 7th gen system with 8 gb RAM. The Data is processed using 'Rank query' data structure in a way that the RAM requirements do not exceed 8 gb.
